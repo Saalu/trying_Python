@@ -3,7 +3,8 @@
 # Create List
 numbers = [1, 2, 3, 4, 5]
 
-# Use a constructor
-num2 = list((1, 2, 3))
+fruits = ['Apples', 'Oranges', 'Pears']
+# print(numbers, num2)
 
-print(numbers, num2)
+# get value
+print(fruits[1])
