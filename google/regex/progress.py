@@ -20,3 +20,7 @@ print(re.search(r"\.com", "mydomain.com"))
 # form '\w' for matching chars in a word including _score
 print(re.search(r"\w*", "This is an example"))
 print(re.search(r"\w*", "And_this_is_another"))
+
+print("=============")
+print(re.search(r"[\d]+", "And_this_is_another4464646"))
+
