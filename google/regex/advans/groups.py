@@ -1,4 +1,5 @@
 import re
+#capturing group is grouped in branket (....)
 result = re.search(r"^(\w*), (\w*)$", "Saalu, Issaka")
 print(result)
 print(result.groups())
